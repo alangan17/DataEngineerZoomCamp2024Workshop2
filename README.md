@@ -126,6 +126,7 @@ Before getting your hands dirty with the project, we will:
 
 ```bash
 # Check version of psql
+export PATH=/Library/PostgreSQL/16/bin:$PATH
 psql --version
 source commands.sh
 
